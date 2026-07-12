@@ -75,5 +75,201 @@
       { "hour": "14:00", "activity": "Wat Chedi Luang", "transportation": "Andando", "duration": "1 h", "estimatedCost": "3 EUR", "location": "Wat Chedi Luang", "bookingStatus": "Abierto", "notes": "En el centro de Old City." },
       { "hour": "19:00", "activity": "Mercado nocturno", "transportation": "Grab", "duration": "2-3 h", "estimatedCost": "20 EUR", "location": "Night Bazaar", "bookingStatus": "Abierto", "notes": "Cena y compras." }
     ]
+  },
+  {
+    "date": "26 ago",
+    "destinationId": "chiang-mai",
+    "destination": "Excursión a Chiang Rai",
+    "accommodation": "Hotel en Chiang Mai por decidir",
+    "transportation": "Tour de día / conductor privado",
+    "activities": ["Templo Blanco", "Templo Azul", "Black House"],
+    "reservations": "Tour pendiente",
+    "estimatedBudget": 95,
+    "notes": "Día largo: empezar temprano.",
+    "mapQuery": "Wat Rong Khun",
+    "imageKey": "chiang-mai",
+    "schedule": [
+      { "hour": "07:00", "activity": "Recogida", "transportation": "Van del tour", "duration": "3 h", "estimatedCost": "Incluido", "location": "Hotel", "bookingStatus": "Pendiente", "notes": "Traslado largo." },
+      { "hour": "10:30", "activity": "Templo Blanco", "transportation": "Van del tour", "duration": "1 h", "estimatedCost": "3 EUR", "location": "Wat Rong Khun", "bookingStatus": "Abierto", "notes": "Parada principal." },
+      { "hour": "13:30", "activity": "Templo Azul", "transportation": "Van del tour", "duration": "45 min", "estimatedCost": "Gratis", "location": "Wat Rong Suea Ten", "bookingStatus": "Abierto", "notes": "Visita corta." },
+      { "hour": "19:30", "activity": "Vuelta", "transportation": "Van del tour", "duration": "Tarde/noche", "estimatedCost": "Incluido", "location": "Chiang Mai", "bookingStatus": "Pendiente", "notes": "Descansar después del día largo." }
+    ]
+  },
+  {
+    "date": "27 ago",
+    "destinationId": "chiang-mai",
+    "destination": "Chiang Mai",
+    "accommodation": "Hotel en Chiang Mai por decidir",
+    "transportation": "Recogida de tour",
+    "activities": ["Santuario ético de elefantes", "Rafting opcional", "Masaje"],
+    "reservations": "Santuario pendiente",
+    "estimatedBudget": 120,
+    "notes": "Verificar estándares éticos del santuario.",
+    "mapQuery": "Chiang Mai elephant sanctuary",
+    "imageKey": "chiang-mai",
+    "schedule": [
+      { "hour": "08:00", "activity": "Recogida del santuario", "transportation": "Transporte del tour", "duration": "45 min", "estimatedCost": "Incluido", "location": "Hotel", "bookingStatus": "Pendiente", "notes": "Confirmar estándares éticos." },
+      { "hour": "09:00", "activity": "Santuario de elefantes", "transportation": "Tour", "duration": "5-6 h", "estimatedCost": "70 EUR", "location": "Santuario por decidir", "bookingStatus": "Pendiente", "notes": "Sin montar elefantes." },
+      { "hour": "16:00", "activity": "Masaje", "transportation": "Grab", "duration": "1 h", "estimatedCost": "10 EUR", "location": "Old City", "bookingStatus": "Abierto", "notes": "Opcional." }
+    ]
+  },
+  {
+    "date": "28 ago",
+    "destinationId": "koh-tao",
+    "destination": "Koh Tao",
+    "accommodation": "Hotel en Koh Tao por decidir",
+    "transportation": "Vuelo + bus + ferry",
+    "activities": ["Día de traslado", "Atardecer en Playa Sairee"],
+    "reservations": "Vuelo/ferry pendiente",
+    "estimatedBudget": 160,
+    "notes": "Reservar conexiones con suficiente margen.",
+    "mapQuery": "Playa Sairee, Koh Tao",
+    "imageKey": "koh-tao",
+    "schedule": [
+      { "hour": "07:00", "activity": "Vuelo al sur", "transportation": "Vuelo", "duration": "2 h", "estimatedCost": "60 EUR", "location": "Aeropuerto de Chiang Mai", "bookingStatus": "Pendiente", "notes": "Ruta por decidir." },
+      { "hour": "14:00", "activity": "Ferry", "transportation": "Ferry", "duration": "2-3 h", "estimatedCost": "25 EUR", "location": "Pier de Koh Tao", "bookingStatus": "Pendiente", "notes": "Depende de la meteorología." },
+      { "hour": "18:00", "activity": "Atardecer en Sairee", "transportation": "Andando/taxi", "duration": "1 h", "estimatedCost": "Gratis", "location": "Playa Sairee", "bookingStatus": "Abierto", "notes": "Primera noche tranquila." }
+    ]
+  },
+  {
+    "date": "29 ago",
+    "destinationId": "koh-tao",
+    "destination": "Koh Tao",
+    "accommodation": "Hotel en Koh Tao por decidir",
+    "transportation": "Andando / taxi boat",
+    "activities": ["Bautismo de buceo", "Playa Sairee"],
+    "reservations": "Centro de buceo pendiente",
+    "estimatedBudget": 130,
+    "notes": "Confirmar requisitos médicos para bucear.",
+    "mapQuery": "Koh Tao dive center",
+    "imageKey": "koh-tao",
+    "schedule": [
+      { "hour": "08:00", "activity": "Registro en centro de buceo", "transportation": "Andando", "duration": "30 min", "estimatedCost": "0 EUR", "location": "Centro de buceo por decidir", "bookingStatus": "Pendiente", "notes": "Llevar pasaporte/info médica." },
+      { "hour": "09:00", "activity": "Bautismo / buceo", "transportation": "Barco", "duration": "4-5 h", "estimatedCost": "90 EUR", "location": "Puntos de buceo de Koh Tao", "bookingStatus": "Pendiente", "notes": "Confirmar formulario médico." },
+      { "hour": "20:00", "activity": "Cena + bares", "transportation": "Andando", "duration": "Flexible", "estimatedCost": "25 EUR", "location": "Sairee", "bookingStatus": "Abierto", "notes": "Noche opcional." }
+    ]
+  },
+  {
+    "date": "30 ago",
+    "destinationId": "koh-tao",
+    "destination": "Koh Tao",
+    "accommodation": "Hotel en Koh Tao por decidir",
+    "transportation": "Motos o taxi",
+    "activities": ["Koh Nang Yuan", "Snorkel", "Miradores"],
+    "reservations": "Barco pendiente",
+    "estimatedBudget": 85,
+    "notes": "Alquilar moto solo con permiso válido y seguro.",
+    "mapQuery": "Koh Nang Yuan",
+    "imageKey": "koh-tao",
+    "schedule": [
+      { "hour": "09:00", "activity": "Barco a Koh Nang Yuan", "transportation": "Taxi boat", "duration": "20 min", "estimatedCost": "15 EUR", "location": "Koh Nang Yuan", "bookingStatus": "Pendiente", "notes": "Ir temprano." },
+      { "hour": "10:00", "activity": "Mirador", "transportation": "Andando", "duration": "1 h", "estimatedCost": "Entrada", "location": "Mirador", "bookingStatus": "Abierto", "notes": "Llevar agua." },
+      { "hour": "12:00", "activity": "Snorkel", "transportation": "Barco/playa", "duration": "2 h", "estimatedCost": "10 EUR", "location": "Zonas de arrecife", "bookingStatus": "Abierto", "notes": "Respetar el coral." }
+    ]
+  },
+  {
+    "date": "31 ago",
+    "destinationId": "krabi",
+    "destination": "Krabi",
+    "accommodation": "Hotel en Krabi por decidir",
+    "transportation": "Ferry + traslado",
+    "activities": ["Traslado", "Railay"],
+    "reservations": "Ferry pendiente",
+    "estimatedBudget": 115,
+    "notes": "Comprobar condiciones meteorológicas del ferry.",
+    "mapQuery": "Playa Railay",
+    "imageKey": "krabi",
+    "schedule": [
+      { "hour": "08:00", "activity": "Ferry/traslado desde Koh Tao", "transportation": "Ferry + van", "duration": "6-8 h", "estimatedCost": "45 EUR", "location": "Krabi", "bookingStatus": "Pendiente", "notes": "Día de traslado." },
+      { "hour": "16:30", "activity": "Playa Railay", "transportation": "Longtail", "duration": "2 h", "estimatedCost": "8 EUR", "location": "Railay", "bookingStatus": "Abierto", "notes": "Atardecer si encaja por horario." }
+    ]
+  },
+  {
+    "date": "1 sept",
+    "destinationId": "phi-phi",
+    "destination": "Phi Phi",
+    "accommodation": "Hotel en Phi Phi por decidir",
+    "transportation": "Ferry",
+    "activities": ["Mirador de Phi Phi", "Playa", "Noche"],
+    "reservations": "Ferry/hotel pendiente",
+    "estimatedBudget": 110,
+    "notes": "Viajar ligero para el traslado a la isla.",
+    "mapQuery": "Mirador de Phi Phi",
+    "imageKey": "phi-phi",
+    "schedule": [
+      { "hour": "09:00", "activity": "Ferry a Phi Phi", "transportation": "Ferry", "duration": "2 h", "estimatedCost": "20 EUR", "location": "Pier de Phi Phi", "bookingStatus": "Pendiente", "notes": "Comprobar equipaje." },
+      { "hour": "16:30", "activity": "Mirador", "transportation": "Andando", "duration": "1.5 h", "estimatedCost": "2 EUR", "location": "Mirador de Phi Phi", "bookingStatus": "Abierto", "notes": "Subida intensa pero merece la pena." },
+      { "hour": "21:00", "activity": "Noche de playa", "transportation": "Andando", "duration": "Flexible", "estimatedCost": "25 EUR", "location": "Loh Dalum", "bookingStatus": "Abierto", "notes": "Opcional." }
+    ]
+  },
+  {
+    "date": "2 sept",
+    "destinationId": "phi-phi",
+    "destination": "Phi Phi",
+    "accommodation": "Hotel en Krabi por decidir",
+    "transportation": "Tour en barco + ferry",
+    "activities": ["Maya Bay", "Pileh Lagoon", "Vuelta a Krabi"],
+    "reservations": "Tour en barco pendiente",
+    "estimatedBudget": 130,
+    "notes": "El acceso a Maya Bay puede variar según temporada.",
+    "mapQuery": "Maya Bay Phi Phi",
+    "imageKey": "phi-phi",
+    "schedule": [
+      { "hour": "07:30", "activity": "Tour temprano en barco", "transportation": "Longtail/speedboat", "duration": "4-6 h", "estimatedCost": "50 EUR", "location": "Maya Bay", "bookingStatus": "Pendiente", "notes": "Ir temprano evita multitudes." },
+      { "hour": "10:00", "activity": "Pileh Lagoon", "transportation": "Barco", "duration": "1 h", "estimatedCost": "Incluido", "location": "Pileh Lagoon", "bookingStatus": "Pendiente", "notes": "Parada para bañarse." },
+      { "hour": "16:00", "activity": "Ferry a Krabi", "transportation": "Ferry", "duration": "2 h", "estimatedCost": "20 EUR", "location": "Krabi", "bookingStatus": "Pendiente", "notes": "Vuelta a tierra firme." }
+    ]
+  },
+  {
+    "date": "3 sept",
+    "destinationId": "krabi",
+    "destination": "Krabi",
+    "accommodation": "Hotel en Krabi por decidir",
+    "transportation": "Taxi local / traslado al aeropuerto",
+    "activities": ["Un amigo vuela de Krabi a Bangkok", "Día extra en Krabi"],
+    "reservations": "Vuelo pendiente",
+    "estimatedBudget": 75,
+    "notes": "Plan dividido para el grupo.",
+    "mapQuery": "Ao Nang Krabi",
+    "imageKey": "krabi",
+    "schedule": [
+      { "hour": "10:30", "activity": "Playa o barco", "transportation": "Longtail", "duration": "3 h", "estimatedCost": "25 EUR", "location": "Railay / islas", "bookingStatus": "Abierto", "notes": "Depende del tiempo." },
+      { "hour": "15:00", "activity": "Traslado del amigo al aeropuerto", "transportation": "Taxi", "duration": "35 min", "estimatedCost": "15 EUR", "location": "Aeropuerto de Krabi", "bookingStatus": "Pendiente", "notes": "Grupo dividido." }
+    ]
+  },
+  {
+    "date": "4 sept",
+    "destinationId": "bangkok",
+    "destination": "Bangkok",
+    "accommodation": "Hotel en Bangkok por decidir",
+    "transportation": "Vuelo a Bangkok",
+    "activities": ["Compras", "Rooftop"],
+    "reservations": "Vuelo/hotel pendiente",
+    "estimatedBudget": 130,
+    "notes": "Última ventana para compras.",
+    "mapQuery": "Siam Bangkok",
+    "imageKey": "bangkok",
+    "schedule": [
+      { "hour": "10:00", "activity": "Vuelo a Bangkok", "transportation": "Avión", "duration": "1.5 h", "estimatedCost": "60 EUR", "location": "Aeropuerto de Krabi", "bookingStatus": "Pendiente", "notes": "Reservar después de cerrar la ruta." },
+      { "hour": "16:00", "activity": "Compras", "transportation": "BTS/Grab", "duration": "3 h", "estimatedCost": "Flexible", "location": "Siam", "bookingStatus": "Abierto", "notes": "Última ventana de compras." },
+      { "hour": "21:00", "activity": "Rooftop", "transportation": "Grab/BTS", "duration": "2 h", "estimatedCost": "30 EUR", "location": "Skyline de Bangkok", "bookingStatus": "Pendiente", "notes": "Última noche." }
+    ]
+  },
+  {
+    "date": "5 sept",
+    "destinationId": "bangkok",
+    "destination": "Bangkok",
+    "accommodation": "Noche de vuelo",
+    "transportation": "Traslado al aeropuerto",
+    "activities": ["Último día en Bangkok", "Aeropuerto por la noche"],
+    "reservations": "Traslado al aeropuerto pendiente",
+    "estimatedBudget": 70,
+    "notes": "Dejar claro el plan de equipaje.",
+    "mapQuery": "Bangkok airport",
+    "imageKey": "bangkok",
+    "schedule": [
+      { "hour": "10:00", "activity": "Últimas compras / masaje", "transportation": "BTS/Grab", "duration": "3 h", "estimatedCost": "30 EUR", "location": "Bangkok", "bookingStatus": "Abierto", "notes": "Guardar equipaje." },
+      { "hour": "19:00", "activity": "Traslado al aeropuerto", "transportation": "Grab/tren", "duration": "45-75 min", "estimatedCost": "12 EUR", "location": "Aeropuerto", "bookingStatus": "Pendiente", "notes": "Salir con margen." }
+    ]
   }
 ]

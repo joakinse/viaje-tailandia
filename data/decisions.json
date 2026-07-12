@@ -1,6 +1,6 @@
 [
-  { "priority": "High", "description": "Bangkok to Chiang Mai transport", "possibleOptions": ["Night train", "Flight"], "pros": ["Train saves hotel", "Flight saves time"], "cons": ["Train is long", "Flight needs airport logistics"], "decisionStatus": "Open" },
-  { "priority": "High", "description": "Koh Tao diving level", "possibleOptions": ["Try dive", "Advanced Open Water", "Snorkel only"], "pros": ["Memorable activity", "Better dive sites with certification"], "cons": ["Cost", "Medical constraints", "Time"], "decisionStatus": "Open" },
-  { "priority": "Medium", "description": "Full Moon Party", "possibleOptions": ["Go", "Skip", "Alternative nightlife"], "pros": ["Iconic", "Party experience"], "cons": ["Logistics", "Crowds", "Cost"], "decisionStatus": "Open" },
-  { "priority": "High", "description": "Total budget target", "possibleOptions": ["1600 EUR", "1850 EUR", "2200 EUR"], "pros": ["Controls decisions"], "cons": ["May limit hotels or activities"], "decisionStatus": "Open" }
+  { "priority": "Alta", "description": "Transporte de Bangkok a Chiang Mai", "possibleOptions": ["Tren nocturno", "Vuelo"], "pros": ["El tren ahorra hotel", "El vuelo ahorra tiempo"], "cons": ["El tren es largo", "El vuelo implica logística de aeropuerto"], "decisionStatus": "Abierta" },
+  { "priority": "Alta", "description": "Nivel de buceo en Koh Tao", "possibleOptions": ["Bautismo", "Advanced Open Water", "Solo snorkel"], "pros": ["Actividad memorable", "Mejores puntos de buceo con certificación"], "cons": ["Coste", "Restricciones médicas", "Tiempo"], "decisionStatus": "Abierta" },
+  { "priority": "Media", "description": "Full Moon Party", "possibleOptions": ["Ir", "Saltarla", "Noche alternativa"], "pros": ["Icónica", "Experiencia de fiesta"], "cons": ["Logística", "Multitudes", "Coste"], "decisionStatus": "Abierta" },
+  { "priority": "Alta", "description": "Objetivo de presupuesto total", "possibleOptions": ["1600 EUR", "1850 EUR", "2200 EUR"], "pros": ["Ayuda a controlar decisiones"], "cons": ["Puede limitar hoteles o actividades"], "decisionStatus": "Abierta" }
 ]

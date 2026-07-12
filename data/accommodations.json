@@ -1,9 +1,9 @@
 [
-  { "date": "22-24 Aug", "destination": "Bangkok", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "22 Aug evening", "checkOut": "24 Aug", "bookingReference": "-", "notes": "Near transit preferred." },
-  { "date": "25-28 Aug", "destination": "Chiang Mai", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "25 Aug", "checkOut": "28 Aug", "bookingReference": "-", "notes": "Old City or Nimman." },
-  { "date": "28-31 Aug", "destination": "Koh Tao", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "28 Aug", "checkOut": "31 Aug", "bookingReference": "-", "notes": "Sairee or Mae Haad." },
-  { "date": "31 Aug-1 Sep", "destination": "Krabi", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "31 Aug", "checkOut": "1 Sep", "bookingReference": "-", "notes": "Ao Nang practical." },
-  { "date": "1-2 Sep", "destination": "Phi Phi", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "1 Sep", "checkOut": "2 Sep", "bookingReference": "-", "notes": "Avoid noisy area if possible." },
-  { "date": "2-4 Sep", "destination": "Krabi", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "2 Sep", "checkOut": "4 Sep", "bookingReference": "-", "notes": "Airport access." },
-  { "date": "4-5 Sep", "destination": "Bangkok", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "4 Sep", "checkOut": "5 Sep", "bookingReference": "-", "notes": "Shopping/transit area." }
+  { "date": "22-24 ago", "destination": "Bangkok", "hotel": "Por decidir", "bookingStatus": "Pendiente", "checkIn": "22 ago por la tarde", "checkOut": "24 ago", "bookingReference": "-", "notes": "Preferible cerca de transporte." },
+  { "date": "25-28 ago", "destination": "Chiang Mai", "hotel": "Por decidir", "bookingStatus": "Pendiente", "checkIn": "25 ago", "checkOut": "28 ago", "bookingReference": "-", "notes": "Old City o Nimman." },
+  { "date": "28-31 ago", "destination": "Koh Tao", "hotel": "Por decidir", "bookingStatus": "Pendiente", "checkIn": "28 ago", "checkOut": "31 ago", "bookingReference": "-", "notes": "Sairee o Mae Haad." },
+  { "date": "31 ago-1 sept", "destination": "Krabi", "hotel": "Por decidir", "bookingStatus": "Pendiente", "checkIn": "31 ago", "checkOut": "1 sept", "bookingReference": "-", "notes": "Ao Nang es práctico." },
+  { "date": "1-2 sept", "destination": "Phi Phi", "hotel": "Por decidir", "bookingStatus": "Pendiente", "checkIn": "1 sept", "checkOut": "2 sept", "bookingReference": "-", "notes": "Evitar zona ruidosa si es posible." },
+  { "date": "2-4 sept", "destination": "Krabi", "hotel": "Por decidir", "bookingStatus": "Pendiente", "checkIn": "2 sept", "checkOut": "4 sept", "bookingReference": "-", "notes": "Buen acceso al aeropuerto." },
+  { "date": "4-5 sept", "destination": "Bangkok", "hotel": "Por decidir", "bookingStatus": "Pendiente", "checkIn": "4 sept", "checkOut": "5 sept", "bookingReference": "-", "notes": "Zona práctica para compras y transporte." }
 ]

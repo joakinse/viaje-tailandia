@@ -1,18 +1,13 @@
-# Tailandia 2026
+# Thailand Travel Hub
 
-Web estática para organizar el viaje a Tailandia con amigos.
+Mobile-first static travel guide for the Thailand group trip.
 
-## Contenido
+## Architecture
 
-- Itinerario día a día desde el 22 de agosto hasta el 5 de septiembre.
-- Imágenes online temáticas para cada día.
-- Todo list editable en el navegador con `localStorage`.
-- Consejos y decisiones pendientes del viaje.
+- UI shell: `index.html`
+- App logic: `assets/js/app.js`
+- Styles: `assets/css/app.css`
+- Trip data: `data/*.json`
+- Data contracts: `schemas/*.schema.json`
 
-## Desarrollo local
-
-Abre `index.html` directamente en el navegador o sirve la carpeta con cualquier servidor estático.
-
-## GitHub Pages
-
-El despliegue se ejecuta con GitHub Actions desde `.github/workflows/pages.yml` cada vez que haya cambios en `main`.
+Trip content is intentionally stored in JSON so the itinerary can be updated without changing application code.

@@ -1,51 +1,38 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Organización del viaje a Tailandia 2026." />
-    <title>Tailandia 2026 | Viaje con amigos</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Thailand Travel Hub for a group trip." />
+    <title>Thailand Travel Hub</title>
+    <link rel="stylesheet" href="assets/css/app.css" />
   </head>
   <body>
-    <header class="hero">
-      <nav class="topbar" aria-label="Navegación principal">
-        <a href="index.html">Inicio</a>
-        <a href="itinerario.html">Itinerario</a>
-        <a href="todo.html">To do list</a>
-        <a href="consejos.html">Consejos</a>
-        <a href="decisiones.html">Decisiones</a>
-      </nav>
-      <div class="hero__content">
-        <p class="eyebrow">22 agosto - 5 septiembre</p>
-        <h1>Tailandia 2026</h1>
-        <p>Bangkok, Chiang Mai, Koh Tao, Krabi, Phi Phi y vuelta a Bangkok.</p>
-        <div class="hero__actions">
-          <a class="button" href="itinerario.html">Ver ruta</a>
-          <a class="button button--ghost" href="todo.html">Añadir to do</a>
-        </div>
+    <div class="shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand" href="#home" aria-label="Thailand Travel Hub home">
+          <span>TH</span>
+          <div>
+            <strong>Thailand Hub</strong>
+            <small data-trip-dates>Group travel guide</small>
+          </div>
+        </a>
+        <nav class="nav" id="nav"></nav>
+      </aside>
+
+      <div class="main">
+        <header class="topbar">
+          <button class="menu-button" id="menu-button" type="button" aria-label="Open navigation">☰</button>
+          <div>
+            <small id="section-kicker">Travel guide</small>
+            <strong id="section-title">Thailand Travel Hub</strong>
+          </div>
+          <a class="topbar__cta" href="#checklist">Checklist</a>
+        </header>
+        <main id="app" tabindex="-1"></main>
       </div>
-    </header>
+    </div>
 
-    <main>
-      <section class="section intro" aria-labelledby="ruta-title">
-        <div>
-          <p class="eyebrow">Ruta propuesta</p>
-          <h2 id="ruta-title">15 días entre templos, selva, buceo e islas</h2>
-        </div>
-        <div class="route" aria-label="Resumen de la ruta">
-          <span>Bangkok</span>
-          <span>Chiang Mai</span>
-          <span>Koh Tao</span>
-          <span>Krabi</span>
-          <span>Phi Phi</span>
-          <span>Bangkok</span>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <p>Viaje a Tailandia 2026. Hecho para organizarlo entre amigos.</p>
-    </footer>
+    <script src="assets/js/app.js" type="module"></script>
   </body>
 </html>

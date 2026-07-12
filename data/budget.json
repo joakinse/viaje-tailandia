@@ -4,11 +4,11 @@
   "remainingBudget": 1850,
   "currency": "EUR",
   "categories": [
-    { "name": "Accommodation", "estimated": 450, "spent": 0 },
-    { "name": "Flights", "estimated": 420, "spent": 0 },
-    { "name": "Transport", "estimated": 280, "spent": 0 },
-    { "name": "Food", "estimated": 330, "spent": 0 },
-    { "name": "Activities", "estimated": 270, "spent": 0 },
-    { "name": "Shopping", "estimated": 100, "spent": 0 }
+    { "name": "Alojamiento", "estimated": 450, "spent": 0 },
+    { "name": "Vuelos", "estimated": 420, "spent": 0 },
+    { "name": "Transporte", "estimated": 280, "spent": 0 },
+    { "name": "Comida", "estimated": 330, "spent": 0 },
+    { "name": "Actividades", "estimated": 270, "spent": 0 },
+    { "name": "Compras", "estimated": 100, "spent": 0 }
   ]
 }

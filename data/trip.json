@@ -1,27 +1,27 @@
 {
-  "name": "Thailand Travel Hub",
-  "dates": "22 Aug - 5 Sep 2026",
+  "name": "Guía de viaje a Tailandia",
+  "dates": "22 ago - 5 sept 2026",
   "departureDate": "2026-08-22T18:40:00+02:00",
-  "reservationStatus": "Planning in progress",
+  "reservationStatus": "Planificación en curso",
   "currentBudget": 1850,
   "currency": "EUR",
   "alerts": [
-    "Complete TDAC before flying to Thailand.",
-    "Choose Bangkok to Chiang Mai transport before booking the north section.",
-    "Check insurance coverage for diving and motorbike rental."
+    "Completar la TDAC antes de volar a Tailandia.",
+    "Decidir el transporte de Bangkok a Chiang Mai antes de reservar la parte norte.",
+    "Comprobar que el seguro cubre buceo y alquiler de moto."
   ],
-  "recommendation": "Book ferries, island accommodation and the Koh Tao dive center first.",
+  "recommendation": "Reservar primero ferris, alojamientos de islas y centro de buceo en Koh Tao.",
   "quickLinks": [
-    { "label": "Full itinerary", "route": "itinerary" },
-    { "label": "Transport decisions", "route": "transport" },
-    { "label": "Checklist", "route": "checklist" },
-    { "label": "Open decisions", "route": "decisions" }
+    { "label": "Itinerario completo", "route": "itinerary" },
+    { "label": "Decisiones de transporte", "route": "transport" },
+    { "label": "Lista de viaje", "route": "checklist" },
+    { "label": "Decisiones pendientes", "route": "decisions" }
   ],
   "weather": [
-    { "destination": "Bangkok", "summary": "Hot, humid, chance of storms", "temperature": "28-34°C" },
-    { "destination": "Chiang Mai", "summary": "Warm, green season showers", "temperature": "24-31°C" },
-    { "destination": "Koh Tao", "summary": "Tropical, sea conditions variable", "temperature": "27-32°C" },
-    { "destination": "Krabi", "summary": "Rainy season, flexible beach plans", "temperature": "26-31°C" },
-    { "destination": "Phi Phi", "summary": "Humid, possible afternoon rain", "temperature": "26-31°C" }
+    { "destination": "Bangkok", "summary": "Calor, humedad y posibilidad de tormentas", "temperature": "28-34°C" },
+    { "destination": "Chiang Mai", "summary": "Templado, verde y con lluvias de temporada", "temperature": "24-31°C" },
+    { "destination": "Koh Tao", "summary": "Tropical, con estado del mar variable", "temperature": "27-32°C" },
+    { "destination": "Krabi", "summary": "Temporada de lluvias, planes de playa flexibles", "temperature": "26-31°C" },
+    { "destination": "Phi Phi", "summary": "Húmedo, posible lluvia por la tarde", "temperature": "26-31°C" }
   ]
 }

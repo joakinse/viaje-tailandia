@@ -71,6 +71,18 @@ input {
   flex-wrap: wrap;
 }
 
+.topbar--page {
+  position: sticky;
+  top: 0;
+  left: auto;
+  right: auto;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(18, 63, 50, 0.92);
+  color: white;
+  box-shadow: 0 14px 36px rgba(18, 63, 50, 0.18);
+}
+
 .topbar a {
   padding: 10px 14px;
   border: 1px solid rgba(255, 255, 255, 0.28);
@@ -111,6 +123,20 @@ h1 {
   font-size: clamp(4rem, 14vw, 10rem);
   line-height: 0.85;
   letter-spacing: -0.08em;
+}
+
+.page-main {
+  min-height: calc(100vh - 140px);
+}
+
+.page-title {
+  margin-bottom: 0;
+  color: var(--ink);
+  font-size: clamp(3rem, 8vw, 6rem);
+}
+
+.todo-panel .page-title {
+  color: white;
 }
 
 h2 {
@@ -254,6 +280,23 @@ h3 {
   align-items: center;
   padding: 12px 12px 12px 18px;
   color: var(--ink);
+}
+
+.todo-check {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.todo-check input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--jungle-2);
+}
+
+.todo-item:has(input:checked) span {
+  color: var(--muted);
+  text-decoration: line-through;
 }
 
 .todo-item button {

@@ -92,13 +92,13 @@ const itinerary = [
 ];
 
 const defaultTodos = [
-  "Decidir tren o vuelo Bangkok-Chiang Mai",
-  "Confirmar si alguien hará Advanced Open Water",
-  "Decidir Full Moon Party",
-  "Cerrar presupuesto aproximado",
-  "Definir equipaje común y mochila",
-  "Completar TDAC antes de viajar",
-  "Reservar ferris con antelación",
+  { text: "Decidir tren o vuelo Bangkok-Chiang Mai", done: false },
+  { text: "Confirmar si alguien hará Advanced Open Water", done: false },
+  { text: "Decidir Full Moon Party", done: false },
+  { text: "Cerrar presupuesto aproximado", done: false },
+  { text: "Definir equipaje común y mochila", done: false },
+  { text: "Completar TDAC antes de viajar", done: false },
+  { text: "Reservar ferris con antelación", done: false },
 ];
 
 const itineraryCards = document.querySelector("#itinerary-cards");
@@ -108,6 +108,8 @@ const todoList = document.querySelector("#todo-list");
 const storageKey = "tailandia-2026-todos";
 
 function renderItinerary() {
+  if (!itineraryCards) return;
+
   itineraryCards.innerHTML = itinerary
     .map(
       (day) => `
@@ -126,7 +128,8 @@ function renderItinerary() {
 
 function getTodos() {
   const savedTodos = localStorage.getItem(storageKey);
-  return savedTodos ? JSON.parse(savedTodos) : defaultTodos;
+  const todos = savedTodos ? JSON.parse(savedTodos) : defaultTodos;
+  return todos.map((todo) => (typeof todo === "string" ? { text: todo, done: false } : todo));
 }
 
 function saveTodos(todos) {
@@ -134,40 +137,63 @@ function saveTodos(todos) {
 }
 
 function renderTodos() {
+  if (!todoList) return;
+
   const todos = getTodos();
   todoList.innerHTML = todos
     .map(
       (todo, index) => `
         <li class="todo-item">
-          <span>${todo}</span>
-          <button type="button" data-index="${index}" aria-label="Eliminar ${todo}">Eliminar</button>
+          <label class="todo-check">
+            <input type="checkbox" data-index="${index}" ${todo.done ? "checked" : ""} />
+            <span>${escapeHtml(todo.text)}</span>
+          </label>
+          <button type="button" data-delete-index="${index}" aria-label="Eliminar ${escapeHtml(todo.text)}">Eliminar</button>
         </li>
       `,
     )
     .join("");
 }
 
-todoForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const newTodo = todoInput.value.trim();
-  if (!newTodo) return;
+function escapeHtml(value) {
+  return value.replace(/[&<>"]/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[character]);
+}
 
-  const todos = getTodos();
-  todos.push(newTodo);
-  saveTodos(todos);
-  todoInput.value = "";
-  renderTodos();
-});
+if (todoForm) {
+  todoForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const newTodo = todoInput.value.trim();
+    if (!newTodo) return;
 
-todoList.addEventListener("click", (event) => {
-  const button = event.target.closest("button[data-index]");
-  if (!button) return;
+    const todos = getTodos();
+    todos.push({ text: newTodo, done: false });
+    saveTodos(todos);
+    todoInput.value = "";
+    renderTodos();
+  });
+}
 
-  const todos = getTodos();
-  todos.splice(Number(button.dataset.index), 1);
-  saveTodos(todos);
-  renderTodos();
-});
+if (todoList) {
+  todoList.addEventListener("change", (event) => {
+    const checkbox = event.target.closest("input[type='checkbox'][data-index]");
+    if (!checkbox) return;
+
+    const todos = getTodos();
+    todos[Number(checkbox.dataset.index)].done = checkbox.checked;
+    saveTodos(todos);
+    renderTodos();
+  });
+
+  todoList.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-delete-index]");
+    if (!button) return;
+
+    const todos = getTodos();
+    todos.splice(Number(button.dataset.deleteIndex), 1);
+    saveTodos(todos);
+    renderTodos();
+  });
+}
 
 renderItinerary();
 renderTodos();

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="To do list del viaje a Tailandia 2026." />
+    <title>To do list | Tailandia 2026</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="topbar topbar--page" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="itinerario.html">Itinerario</a>
+      <a href="todo.html">To do list</a>
+      <a href="consejos.html">Consejos</a>
+      <a href="decisiones.html">Decisiones</a>
+    </nav>
+
+    <main class="page-main">
+      <section class="section todo-panel" aria-labelledby="todo-title">
+        <div class="todo-panel__header">
+          <div>
+            <h1 id="todo-title" class="page-title">To do list</h1>
+          </div>
+          <form class="todo-form" id="todo-form">
+            <label class="sr-only" for="todo-input">Nuevo to do</label>
+            <input id="todo-input" name="todo" type="text" placeholder="Ej. Reservar ferry a Koh Tao" autocomplete="off" required />
+            <button type="submit">Añadir</button>
+          </form>
+        </div>
+        <ul class="todo-list" id="todo-list" aria-live="polite"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Viaje a Tailandia 2026. Hecho para organizarlo entre amigos.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

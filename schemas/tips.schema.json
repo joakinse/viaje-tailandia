@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Tips","type":"array","items":{"type":"object","required":["topic","description"],"properties":{"topic":{"type":"string"},"description":{"type":"string"}}}}

@@ -1,0 +1,275 @@
+[
+  {
+    "date": "22 Aug",
+    "destinationId": "bangkok",
+    "destination": "Bangkok",
+    "accommodation": "Bangkok hotel - TBD",
+    "transportation": "Arrival 18:40",
+    "activities": ["Hotel check-in", "Dinner", "Short walk"],
+    "reservations": "Flight confirmed, hotel pending",
+    "estimatedBudget": 55,
+    "notes": "Keep first night simple after the flight.",
+    "mapQuery": "Bangkok",
+    "imageKey": "bangkok",
+    "schedule": [
+      { "hour": "18:40", "activity": "Arrival", "transportation": "Plane", "duration": "1 h immigration", "estimatedCost": "0 EUR", "location": "BKK/DMK airport", "bookingStatus": "Confirmed", "notes": "Confirm exact airport." },
+      { "hour": "20:00", "activity": "Hotel transfer", "transportation": "Grab", "duration": "45-75 min", "estimatedCost": "12 EUR", "location": "Hotel TBD", "bookingStatus": "Pending", "notes": "Share ride if possible." },
+      { "hour": "21:30", "activity": "Dinner", "transportation": "Walk/Grab", "duration": "1 h", "estimatedCost": "15 EUR", "location": "Hotel area", "bookingStatus": "Open", "notes": "Easy first night." }
+    ]
+  },
+  {
+    "date": "23 Aug",
+    "destinationId": "bangkok",
+    "destination": "Bangkok",
+    "accommodation": "Bangkok hotel - TBD",
+    "transportation": "Grab + river boat",
+    "activities": ["Grand Palace", "Wat Pho", "Wat Arun", "Khao San Road"],
+    "reservations": "Temples not booked",
+    "estimatedBudget": 80,
+    "notes": "Temple dress code: shoulders and knees covered.",
+    "mapQuery": "Grand Palace Bangkok",
+    "imageKey": "bangkok",
+    "schedule": [
+      { "hour": "08:00", "activity": "Breakfast", "transportation": "Walk", "duration": "45 min", "estimatedCost": "6 EUR", "location": "Hotel area", "bookingStatus": "Open", "notes": "Start early." },
+      { "hour": "09:00", "activity": "Grand Palace", "transportation": "Grab", "duration": "2 h", "estimatedCost": "14 EUR", "location": "Grand Palace", "bookingStatus": "Open", "notes": "Dress code required." },
+      { "hour": "11:00", "activity": "Wat Pho", "transportation": "Walk", "duration": "1 h", "estimatedCost": "6 EUR", "location": "Wat Pho", "bookingStatus": "Open", "notes": "Reclining Buddha." },
+      { "hour": "12:30", "activity": "Lunch", "transportation": "Walk", "duration": "1 h", "estimatedCost": "10 EUR", "location": "Old Town", "bookingStatus": "Open", "notes": "Stay near pier." },
+      { "hour": "14:00", "activity": "Wat Arun", "transportation": "River boat", "duration": "1.5 h", "estimatedCost": "5 EUR", "location": "Wat Arun", "bookingStatus": "Open", "notes": "Great afternoon light." },
+      { "hour": "19:00", "activity": "Dinner", "transportation": "Grab", "duration": "1.5 h", "estimatedCost": "15 EUR", "location": "Chinatown", "bookingStatus": "Open", "notes": "Street food." },
+      { "hour": "21:00", "activity": "Rooftop", "transportation": "BTS/Grab", "duration": "1.5 h", "estimatedCost": "25 EUR", "location": "Sky bar TBD", "bookingStatus": "Pending", "notes": "Book if needed." }
+    ]
+  },
+  {
+    "date": "24 Aug",
+    "destinationId": "bangkok",
+    "destination": "Bangkok",
+    "accommodation": "Night train or Bangkok hotel",
+    "transportation": "MRT, Grab, optional night train",
+    "activities": ["Pak Khlong Talat", "Song Wat", "Talat Noi", "Chinatown", "Rooftop"],
+    "reservations": "Transport decision pending",
+    "estimatedBudget": 95,
+    "notes": "Choose train vs flight.",
+    "mapQuery": "Bangkok Chinatown",
+    "imageKey": "bangkok",
+    "schedule": [
+      { "hour": "09:00", "activity": "Flower Market", "transportation": "MRT/Grab", "duration": "1 h", "estimatedCost": "4 EUR", "location": "Pak Khlong Talat", "bookingStatus": "Open", "notes": "Good morning stop." },
+      { "hour": "10:30", "activity": "Song Wat + Talat Noi", "transportation": "Walk", "duration": "2 h", "estimatedCost": "5 EUR", "location": "Song Wat", "bookingStatus": "Open", "notes": "Coffee and photos." },
+      { "hour": "13:00", "activity": "Lunch", "transportation": "Walk", "duration": "1 h", "estimatedCost": "12 EUR", "location": "Chinatown", "bookingStatus": "Open", "notes": "Street food." },
+      { "hour": "22:00", "activity": "Night train or hotel", "transportation": "Taxi/train", "duration": "Overnight", "estimatedCost": "30-70 EUR", "location": "Station/Airport", "bookingStatus": "Pending", "notes": "Decision needed." }
+    ]
+  },
+  {
+    "date": "25 Aug",
+    "destinationId": "chiang-mai",
+    "destination": "Chiang Mai",
+    "accommodation": "Chiang Mai hotel - TBD",
+    "transportation": "Train or flight",
+    "activities": ["Old city", "Wat Chedi Luang", "Wat Phra Singh", "Night Market"],
+    "reservations": "Hotel pending",
+    "estimatedBudget": 75,
+    "notes": "Stay near Old City or Nimman.",
+    "mapQuery": "Chiang Mai Old City",
+    "imageKey": "chiang-mai",
+    "schedule": [
+      { "hour": "12:30", "activity": "Khao soi lunch", "transportation": "Walk/Grab", "duration": "1 h", "estimatedCost": "8 EUR", "location": "Old City", "bookingStatus": "Open", "notes": "Try local specialty." },
+      { "hour": "14:00", "activity": "Wat Chedi Luang", "transportation": "Walk", "duration": "1 h", "estimatedCost": "3 EUR", "location": "Wat Chedi Luang", "bookingStatus": "Open", "notes": "Central old city." },
+      { "hour": "19:00", "activity": "Night Market", "transportation": "Grab", "duration": "2-3 h", "estimatedCost": "20 EUR", "location": "Night Bazaar", "bookingStatus": "Open", "notes": "Dinner + shopping." }
+    ]
+  },
+  {
+    "date": "26 Aug",
+    "destinationId": "chiang-mai",
+    "destination": "Chiang Rai day trip",
+    "accommodation": "Chiang Mai hotel - TBD",
+    "transportation": "Day tour / private driver",
+    "activities": ["White Temple", "Blue Temple", "Black House"],
+    "reservations": "Tour pending",
+    "estimatedBudget": 95,
+    "notes": "Long day: start early.",
+    "mapQuery": "Wat Rong Khun",
+    "imageKey": "chiang-mai",
+    "schedule": [
+      { "hour": "07:00", "activity": "Pickup", "transportation": "Tour van", "duration": "3 h", "estimatedCost": "Included", "location": "Hotel", "bookingStatus": "Pending", "notes": "Long transfer." },
+      { "hour": "10:30", "activity": "White Temple", "transportation": "Tour van", "duration": "1 h", "estimatedCost": "3 EUR", "location": "Wat Rong Khun", "bookingStatus": "Open", "notes": "Main stop." },
+      { "hour": "13:30", "activity": "Blue Temple", "transportation": "Tour van", "duration": "45 min", "estimatedCost": "Free", "location": "Wat Rong Suea Ten", "bookingStatus": "Open", "notes": "Short visit." },
+      { "hour": "19:30", "activity": "Return", "transportation": "Tour van", "duration": "Evening", "estimatedCost": "Included", "location": "Chiang Mai", "bookingStatus": "Pending", "notes": "Rest after long day." }
+    ]
+  },
+  {
+    "date": "27 Aug",
+    "destinationId": "chiang-mai",
+    "destination": "Chiang Mai",
+    "accommodation": "Chiang Mai hotel - TBD",
+    "transportation": "Pickup tour",
+    "activities": ["Ethical elephant sanctuary", "Optional rafting", "Massage"],
+    "reservations": "Sanctuary pending",
+    "estimatedBudget": 120,
+    "notes": "Verify ethical sanctuary standards.",
+    "mapQuery": "Chiang Mai elephant sanctuary",
+    "imageKey": "chiang-mai",
+    "schedule": [
+      { "hour": "08:00", "activity": "Sanctuary pickup", "transportation": "Tour pickup", "duration": "45 min", "estimatedCost": "Included", "location": "Hotel", "bookingStatus": "Pending", "notes": "Confirm ethical standards." },
+      { "hour": "09:00", "activity": "Elephant sanctuary", "transportation": "Tour", "duration": "5-6 h", "estimatedCost": "70 EUR", "location": "Sanctuary TBD", "bookingStatus": "Pending", "notes": "No riding." },
+      { "hour": "16:00", "activity": "Massage", "transportation": "Grab", "duration": "1 h", "estimatedCost": "10 EUR", "location": "Old City", "bookingStatus": "Open", "notes": "Optional." }
+    ]
+  },
+  {
+    "date": "28 Aug",
+    "destinationId": "koh-tao",
+    "destination": "Koh Tao",
+    "accommodation": "Koh Tao hotel - TBD",
+    "transportation": "Flight + bus + ferry",
+    "activities": ["Transfer day", "Sairee Beach sunset"],
+    "reservations": "Flight/ferry pending",
+    "estimatedBudget": 160,
+    "notes": "Book connections with enough buffer.",
+    "mapQuery": "Koh Tao Sairee Beach",
+    "imageKey": "koh-tao",
+    "schedule": [
+      { "hour": "07:00", "activity": "Fly south", "transportation": "Flight", "duration": "2 h", "estimatedCost": "60 EUR", "location": "Chiang Mai airport", "bookingStatus": "Pending", "notes": "Route TBD." },
+      { "hour": "14:00", "activity": "Ferry", "transportation": "Ferry", "duration": "2-3 h", "estimatedCost": "25 EUR", "location": "Koh Tao pier", "bookingStatus": "Pending", "notes": "Weather dependent." },
+      { "hour": "18:00", "activity": "Sairee sunset", "transportation": "Walk/taxi", "duration": "1 h", "estimatedCost": "Free", "location": "Sairee Beach", "bookingStatus": "Open", "notes": "Easy first night." }
+    ]
+  },
+  {
+    "date": "29 Aug",
+    "destinationId": "koh-tao",
+    "destination": "Koh Tao",
+    "accommodation": "Koh Tao hotel - TBD",
+    "transportation": "Walk / taxi boat",
+    "activities": ["Scuba try dive", "Sairee Beach"],
+    "reservations": "Dive center pending",
+    "estimatedBudget": 130,
+    "notes": "Confirm medical requirements for diving.",
+    "mapQuery": "Koh Tao dive center",
+    "imageKey": "koh-tao",
+    "schedule": [
+      { "hour": "08:00", "activity": "Dive center check-in", "transportation": "Walk", "duration": "30 min", "estimatedCost": "0 EUR", "location": "Dive center TBD", "bookingStatus": "Pending", "notes": "Bring passport/medical info." },
+      { "hour": "09:00", "activity": "Try dive / scuba", "transportation": "Boat", "duration": "4-5 h", "estimatedCost": "90 EUR", "location": "Koh Tao dive sites", "bookingStatus": "Pending", "notes": "Confirm medical form." },
+      { "hour": "20:00", "activity": "Dinner + bars", "transportation": "Walk", "duration": "Flexible", "estimatedCost": "25 EUR", "location": "Sairee", "bookingStatus": "Open", "notes": "Optional nightlife." }
+    ]
+  },
+  {
+    "date": "30 Aug",
+    "destinationId": "koh-tao",
+    "destination": "Koh Tao",
+    "accommodation": "Koh Tao hotel - TBD",
+    "transportation": "Scooters or taxi",
+    "activities": ["Koh Nang Yuan", "Snorkel", "Viewpoints"],
+    "reservations": "Boat pending",
+    "estimatedBudget": 85,
+    "notes": "Only rent scooters with valid permit and insurance.",
+    "mapQuery": "Koh Nang Yuan",
+    "imageKey": "koh-tao",
+    "schedule": [
+      { "hour": "09:00", "activity": "Boat to Koh Nang Yuan", "transportation": "Taxi boat", "duration": "20 min", "estimatedCost": "15 EUR", "location": "Koh Nang Yuan", "bookingStatus": "Pending", "notes": "Go early." },
+      { "hour": "10:00", "activity": "Viewpoint", "transportation": "Walk", "duration": "1 h", "estimatedCost": "Entry fee", "location": "Viewpoint", "bookingStatus": "Open", "notes": "Bring water." },
+      { "hour": "12:00", "activity": "Snorkel", "transportation": "Boat/beach", "duration": "2 h", "estimatedCost": "10 EUR", "location": "Reef areas", "bookingStatus": "Open", "notes": "Respect coral." }
+    ]
+  },
+  {
+    "date": "31 Aug",
+    "destinationId": "krabi",
+    "destination": "Krabi",
+    "accommodation": "Krabi hotel - TBD",
+    "transportation": "Ferry + transfer",
+    "activities": ["Transfer", "Railay"],
+    "reservations": "Ferry pending",
+    "estimatedBudget": 115,
+    "notes": "Check ferry weather conditions.",
+    "mapQuery": "Railay Beach",
+    "imageKey": "krabi",
+    "schedule": [
+      { "hour": "08:00", "activity": "Ferry/transfer from Koh Tao", "transportation": "Ferry + van", "duration": "6-8 h", "estimatedCost": "45 EUR", "location": "Krabi", "bookingStatus": "Pending", "notes": "Transfer day." },
+      { "hour": "16:30", "activity": "Railay Beach", "transportation": "Longtail", "duration": "2 h", "estimatedCost": "8 EUR", "location": "Railay", "bookingStatus": "Open", "notes": "Sunset if timing works." }
+    ]
+  },
+  {
+    "date": "1 Sep",
+    "destinationId": "phi-phi",
+    "destination": "Phi Phi",
+    "accommodation": "Phi Phi hotel - TBD",
+    "transportation": "Ferry",
+    "activities": ["Phi Phi Viewpoint", "Beach", "Nightlife"],
+    "reservations": "Ferry/hotel pending",
+    "estimatedBudget": 110,
+    "notes": "Pack light for island transfer.",
+    "mapQuery": "Phi Phi Viewpoint",
+    "imageKey": "phi-phi",
+    "schedule": [
+      { "hour": "09:00", "activity": "Ferry to Phi Phi", "transportation": "Ferry", "duration": "2 h", "estimatedCost": "20 EUR", "location": "Phi Phi pier", "bookingStatus": "Pending", "notes": "Check luggage." },
+      { "hour": "16:30", "activity": "Viewpoint", "transportation": "Walk", "duration": "1.5 h", "estimatedCost": "2 EUR", "location": "Phi Phi Viewpoint", "bookingStatus": "Open", "notes": "Steep but worth it." },
+      { "hour": "21:00", "activity": "Beach nightlife", "transportation": "Walk", "duration": "Flexible", "estimatedCost": "25 EUR", "location": "Loh Dalum", "bookingStatus": "Open", "notes": "Optional." }
+    ]
+  },
+  {
+    "date": "2 Sep",
+    "destinationId": "phi-phi",
+    "destination": "Phi Phi",
+    "accommodation": "Krabi hotel - TBD",
+    "transportation": "Boat tour + ferry",
+    "activities": ["Maya Bay", "Pileh Lagoon", "Return to Krabi"],
+    "reservations": "Boat tour pending",
+    "estimatedBudget": 130,
+    "notes": "Maya Bay access can vary by season.",
+    "mapQuery": "Maya Bay Phi Phi",
+    "imageKey": "phi-phi",
+    "schedule": [
+      { "hour": "07:30", "activity": "Early boat tour", "transportation": "Longtail/speedboat", "duration": "4-6 h", "estimatedCost": "50 EUR", "location": "Maya Bay", "bookingStatus": "Pending", "notes": "Early avoids crowds." },
+      { "hour": "10:00", "activity": "Pileh Lagoon", "transportation": "Boat", "duration": "1 h", "estimatedCost": "Included", "location": "Pileh Lagoon", "bookingStatus": "Pending", "notes": "Swim stop." },
+      { "hour": "16:00", "activity": "Ferry to Krabi", "transportation": "Ferry", "duration": "2 h", "estimatedCost": "20 EUR", "location": "Krabi", "bookingStatus": "Pending", "notes": "Return to mainland." }
+    ]
+  },
+  {
+    "date": "3 Sep",
+    "destinationId": "krabi",
+    "destination": "Krabi",
+    "accommodation": "Krabi hotel - TBD",
+    "transportation": "Local taxi / airport transfer",
+    "activities": ["One friend flies Krabi to Bangkok", "Extra Krabi day"],
+    "reservations": "Flight pending",
+    "estimatedBudget": 75,
+    "notes": "Split plan for group.",
+    "mapQuery": "Ao Nang Krabi",
+    "imageKey": "krabi",
+    "schedule": [
+      { "hour": "10:30", "activity": "Beach or boat", "transportation": "Longtail", "duration": "3 h", "estimatedCost": "25 EUR", "location": "Railay / islands", "bookingStatus": "Open", "notes": "Weather dependent." },
+      { "hour": "15:00", "activity": "Friend airport transfer", "transportation": "Taxi", "duration": "35 min", "estimatedCost": "15 EUR", "location": "Krabi Airport", "bookingStatus": "Pending", "notes": "Split group." }
+    ]
+  },
+  {
+    "date": "4 Sep",
+    "destinationId": "bangkok",
+    "destination": "Bangkok",
+    "accommodation": "Bangkok hotel - TBD",
+    "transportation": "Flight to Bangkok",
+    "activities": ["Shopping", "Rooftop"],
+    "reservations": "Flight/hotel pending",
+    "estimatedBudget": 130,
+    "notes": "Last shopping window.",
+    "mapQuery": "Siam Bangkok",
+    "imageKey": "bangkok",
+    "schedule": [
+      { "hour": "10:00", "activity": "Flight to Bangkok", "transportation": "Plane", "duration": "1.5 h", "estimatedCost": "60 EUR", "location": "Krabi Airport", "bookingStatus": "Pending", "notes": "Book after final route." },
+      { "hour": "16:00", "activity": "Shopping", "transportation": "BTS/Grab", "duration": "3 h", "estimatedCost": "Flexible", "location": "Siam", "bookingStatus": "Open", "notes": "Last shopping window." },
+      { "hour": "21:00", "activity": "Rooftop", "transportation": "Grab/BTS", "duration": "2 h", "estimatedCost": "30 EUR", "location": "Bangkok skyline", "bookingStatus": "Pending", "notes": "Final night." }
+    ]
+  },
+  {
+    "date": "5 Sep",
+    "destinationId": "bangkok",
+    "destination": "Bangkok",
+    "accommodation": "Flight night",
+    "transportation": "Airport transfer",
+    "activities": ["Last day in Bangkok", "Airport at night"],
+    "reservations": "Airport transfer pending",
+    "estimatedBudget": 70,
+    "notes": "Keep luggage plan clear.",
+    "mapQuery": "Bangkok airport",
+    "imageKey": "bangkok",
+    "schedule": [
+      { "hour": "10:00", "activity": "Final shopping / massage", "transportation": "BTS/Grab", "duration": "3 h", "estimatedCost": "30 EUR", "location": "Bangkok", "bookingStatus": "Open", "notes": "Keep luggage stored." },
+      { "hour": "19:00", "activity": "Airport transfer", "transportation": "Grab/train", "duration": "45-75 min", "estimatedCost": "12 EUR", "location": "Airport", "bookingStatus": "Pending", "notes": "Leave buffer." }
+    ]
+  }
+]

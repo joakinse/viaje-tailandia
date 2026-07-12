@@ -1,12 +1,12 @@
 [
-  { "type": "Alojamiento", "name": "Alojamiento en Bangkok por decidir", "destination": "Bangkok", "query": "Bangkok hotel" },
-  { "type": "Templo", "name": "Grand Palace", "destination": "Bangkok", "query": "Grand Palace Bangkok" },
-  { "type": "Templo", "name": "Wat Arun", "destination": "Bangkok", "query": "Wat Arun" },
-  { "type": "Mercado", "name": "Chinatown", "destination": "Bangkok", "query": "Yaowarat Bangkok" },
-  { "type": "Templo", "name": "Wat Chedi Luang", "destination": "Chiang Mai", "query": "Wat Chedi Luang" },
-  { "type": "Centro de buceo", "name": "Centro de buceo en Koh Tao por decidir", "destination": "Koh Tao", "query": "Koh Tao dive center" },
-  { "type": "Playa", "name": "Playa Sairee", "destination": "Koh Tao", "query": "Sairee Beach" },
-  { "type": "Playa", "name": "Playa Railay", "destination": "Krabi", "query": "Railay Beach" },
-  { "type": "Mirador", "name": "Mirador de Phi Phi", "destination": "Phi Phi", "query": "Phi Phi Viewpoint" },
-  { "type": "Playa", "name": "Maya Bay", "destination": "Phi Phi", "query": "Maya Bay" }
+  { "type": "Alojamiento", "name": "Alojamiento en Bangkok por decidir", "destination": "Bangkok", "query": "Bangkok hotel", "lat": 13.7563, "lng": 100.5018, "approximate": true },
+  { "type": "Templo", "name": "Grand Palace", "destination": "Bangkok", "query": "Grand Palace Bangkok", "lat": 13.7500, "lng": 100.4913 },
+  { "type": "Templo", "name": "Wat Arun", "destination": "Bangkok", "query": "Wat Arun", "lat": 13.7437, "lng": 100.4889 },
+  { "type": "Mercado", "name": "Chinatown", "destination": "Bangkok", "query": "Yaowarat Bangkok", "lat": 13.7393, "lng": 100.5101 },
+  { "type": "Templo", "name": "Wat Chedi Luang", "destination": "Chiang Mai", "query": "Wat Chedi Luang", "lat": 18.7870, "lng": 98.9865 },
+  { "type": "Centro de buceo", "name": "Centro de buceo en Koh Tao por decidir", "destination": "Koh Tao", "query": "Koh Tao dive center", "lat": 10.0980, "lng": 99.8400, "approximate": true },
+  { "type": "Playa", "name": "Playa Sairee", "destination": "Koh Tao", "query": "Sairee Beach", "lat": 10.0985, "lng": 99.8382 },
+  { "type": "Playa", "name": "Playa Railay", "destination": "Krabi", "query": "Railay Beach", "lat": 8.0118, "lng": 98.8370 },
+  { "type": "Mirador", "name": "Mirador de Phi Phi", "destination": "Phi Phi", "query": "Phi Phi Viewpoint", "lat": 7.7465, "lng": 98.7780 },
+  { "type": "Playa", "name": "Maya Bay", "destination": "Phi Phi", "query": "Maya Bay", "lat": 7.6783, "lng": 98.7657 }
 ]

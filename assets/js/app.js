@@ -152,7 +152,7 @@ function renderBudget() {
 }
 
 function renderChecklist() {
-  page("Checklist", `<div class="section-title"><div><p class="kicker">Travel preparation</p><h1>Checklist</h1></div></div><section class="grid grid-2">${state.checklist.map((group) => card(group.category, group.items.map((item) => `<label class="check-item"><input type="checkbox" data-check="${esc(group.category)}:${esc(item)}" />${esc(item)}</label>`).join("")).join("")}</section>`, "Packing");
+  page("Checklist", `<div class="section-title"><div><p class="kicker">Travel preparation</p><h1>Checklist</h1></div></div><section class="grid grid-2">${state.checklist.map((group) => card(group.category, group.items.map((item) => `<label class="check-item"><input type="checkbox" data-check="${esc(group.category)}:${esc(item)}" />${esc(item)}</label>`).join(""))).join("")}</section>`, "Packing");
   restoreChecks();
 }
 

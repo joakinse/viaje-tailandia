@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Organización del viaje a Tailandia 2026: itinerario, pendientes, consejos y decisiones del grupo."
+    />
+    <title>Tailandia 2026 | Viaje con amigos</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="Navegación principal">
+        <a href="#itinerario">Itinerario</a>
+        <a href="#pendientes">Todo list</a>
+        <a href="#consejos">Consejos</a>
+        <a href="#decisiones">Decisiones</a>
+      </nav>
+      <div class="hero__content">
+        <p class="eyebrow">22 agosto - 5 septiembre</p>
+        <h1>Tailandia 2026</h1>
+        <p>
+          Bangkok, Chiang Mai, Koh Tao, Krabi, Phi Phi y vuelta a Bangkok.
+          Una página para tener el plan claro y que el grupo pueda organizar tareas.
+        </p>
+        <div class="hero__actions">
+          <a class="button" href="#itinerario">Ver ruta</a>
+          <a class="button button--ghost" href="#pendientes">Añadir pendiente</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section intro" aria-labelledby="ruta-title">
+        <div>
+          <p class="eyebrow">Ruta propuesta</p>
+          <h2 id="ruta-title">15 días entre templos, selva, buceo e islas</h2>
+        </div>
+        <div class="route" aria-label="Resumen de la ruta">
+          <span>Bangkok</span>
+          <span>Chiang Mai</span>
+          <span>Koh Tao</span>
+          <span>Krabi</span>
+          <span>Phi Phi</span>
+          <span>Bangkok</span>
+        </div>
+      </section>
+
+      <section class="section todo-panel" id="pendientes" aria-labelledby="todo-title">
+        <div class="todo-panel__header">
+          <div>
+            <p class="eyebrow">Organización del grupo</p>
+            <h2 id="todo-title">Todo list compartida en este navegador</h2>
+            <p>
+              Añadid tareas conforme aparezcan. Cada tarea se puede borrar de una en una cuando esté resuelta.
+            </p>
+          </div>
+          <form class="todo-form" id="todo-form">
+            <label class="sr-only" for="todo-input">Nueva tarea</label>
+            <input id="todo-input" name="todo" type="text" placeholder="Ej. Reservar ferry a Koh Tao" autocomplete="off" required />
+            <button type="submit">Añadir</button>
+          </form>
+        </div>
+        <ul class="todo-list" id="todo-list" aria-live="polite"></ul>
+      </section>
+
+      <section class="section" id="itinerario" aria-labelledby="itinerary-title">
+        <div class="section__heading">
+          <p class="eyebrow">Plan día a día</p>
+          <h2 id="itinerary-title">Itinerario</h2>
+        </div>
+        <div class="cards" id="itinerary-cards"></div>
+      </section>
+
+      <section class="section split" id="consejos" aria-labelledby="tips-title">
+        <div>
+          <p class="eyebrow">Antes y durante el viaje</p>
+          <h2 id="tips-title">Consejos rápidos</h2>
+        </div>
+        <ul class="check-list">
+          <li>Completar TDAC antes de viajar.</li>
+          <li>Llevar Revolut/Wise y algo de efectivo.</li>
+          <li>Usar Grab para desplazamientos.</li>
+          <li>Comprar agua y snacks en 7-Eleven.</li>
+          <li>Verificar permiso internacional para moto y seguro.</li>
+          <li>Reservar con antelación tren nocturno y ferris.</li>
+        </ul>
+      </section>
+
+      <section class="section decisions" id="decisiones" aria-labelledby="decisions-title">
+        <div>
+          <p class="eyebrow">Por decidir</p>
+          <h2 id="decisions-title">Decisiones pendientes</h2>
+        </div>
+        <div class="decision-grid">
+          <article>Tren o vuelo Bangkok-Chiang Mai</article>
+          <article>Advanced Open Water</article>
+          <article>Full Moon Party</article>
+          <article>Presupuesto</article>
+          <article>Equipaje</article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Viaje a Tailandia 2026. Hecho para organizarlo entre amigos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

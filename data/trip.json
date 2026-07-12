@@ -1,0 +1,27 @@
+{
+  "name": "Thailand Travel Hub",
+  "dates": "22 Aug - 5 Sep 2026",
+  "departureDate": "2026-08-22T18:40:00+02:00",
+  "reservationStatus": "Planning in progress",
+  "currentBudget": 1850,
+  "currency": "EUR",
+  "alerts": [
+    "Complete TDAC before flying to Thailand.",
+    "Choose Bangkok to Chiang Mai transport before booking the north section.",
+    "Check insurance coverage for diving and motorbike rental."
+  ],
+  "recommendation": "Book ferries, island accommodation and the Koh Tao dive center first.",
+  "quickLinks": [
+    { "label": "Full itinerary", "route": "itinerary" },
+    { "label": "Transport decisions", "route": "transport" },
+    { "label": "Checklist", "route": "checklist" },
+    { "label": "Open decisions", "route": "decisions" }
+  ],
+  "weather": [
+    { "destination": "Bangkok", "summary": "Hot, humid, chance of storms", "temperature": "28-34°C" },
+    { "destination": "Chiang Mai", "summary": "Warm, green season showers", "temperature": "24-31°C" },
+    { "destination": "Koh Tao", "summary": "Tropical, sea conditions variable", "temperature": "27-32°C" },
+    { "destination": "Krabi", "summary": "Rainy season, flexible beach plans", "temperature": "26-31°C" },
+    { "destination": "Phi Phi", "summary": "Humid, possible afternoon rain", "temperature": "26-31°C" }
+  ]
+}

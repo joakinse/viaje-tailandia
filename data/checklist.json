@@ -1,0 +1,13 @@
+[
+  { "category": "Travel documents", "items": ["Passport", "TDAC", "Flight details", "Hotel confirmations"] },
+  { "category": "Vaccines", "items": ["Review official guidance", "Routine vaccines"] },
+  { "category": "Insurance", "items": ["Travel insurance", "Diving coverage"] },
+  { "category": "Money", "items": ["Cash euros", "Thai baht plan"] },
+  { "category": "Cards", "items": ["Revolut/Wise", "Backup card"] },
+  { "category": "SIM/eSIM", "items": ["Compare eSIM/local SIM", "Download offline maps"] },
+  { "category": "Clothes", "items": ["Temple clothes", "Rain jacket", "Swimwear"] },
+  { "category": "Scuba gear", "items": ["Certification card", "Mask if owned"] },
+  { "category": "Electronics", "items": ["Power bank", "Universal adapter"] },
+  { "category": "Medicines", "items": ["Basic kit", "Mosquito repellent"] },
+  { "category": "Apps", "items": ["Grab", "Bolt", "Google Maps", "Google Translate", "12GoAsia"] }
+]

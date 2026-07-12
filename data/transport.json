@@ -1,7 +1,69 @@
 [
-  {"origin":"Bangkok","destination":"Chiang Mai","recommendedOption":"Night train","estimatedDuration":"11-13 h","estimatedPrice":"25-45 EUR","bookingWebsite":"https://12go.asia/","reservationStatus":"Decision pending","notes":"Saves one hotel night but takes longer.","options":[{"name":"Night train","advantages":["Experience","Central arrival","Saves hotel night"],"disadvantages":["Long","Can sell out"],"price":"25-45 EUR","duration":"11-13 h","reservation":"Pending"},{"name":"Flight","advantages":["Fast","More predictable"],"disadvantages":["Airport time","Baggage rules"],"price":"50-90 EUR","duration":"1h15 + airport time","reservation":"Pending"}]},
-  {"origin":"Chiang Mai","destination":"Koh Tao","recommendedOption":"Flight + bus + ferry","estimatedDuration":"Full day","estimatedPrice":"100-170 EUR","bookingWebsite":"https://12go.asia/","reservationStatus":"Pending","notes":"Needs careful connection buffer.","options":[{"name":"Flight + bus + ferry","advantages":["Most practical","Bookable as connected legs"],"disadvantages":["Long day","Connection risk"],"price":"100-170 EUR","duration":"Full day","reservation":"Pending"}]},
-  {"origin":"Koh Tao","destination":"Krabi","recommendedOption":"Ferry + van","estimatedDuration":"6-8 h","estimatedPrice":"35-55 EUR","bookingWebsite":"https://12go.asia/","reservationStatus":"Pending","notes":"Weather can affect ferries.","options":[{"name":"Ferry + van","advantages":["Direct island-to-mainland route"],"disadvantages":["Weather dependent"],"price":"35-55 EUR","duration":"6-8 h","reservation":"Pending"}]},
-  {"origin":"Krabi","destination":"Phi Phi","recommendedOption":"Ferry","estimatedDuration":"2 h","estimatedPrice":"15-25 EUR","bookingWebsite":"https://12go.asia/","reservationStatus":"Pending","notes":"Pack light for island transfer.","options":[{"name":"Ferry","advantages":["Cheap","Simple"],"disadvantages":["Fixed schedules"],"price":"15-25 EUR","duration":"2 h","reservation":"Pending"},{"name":"Speedboat","advantages":["Faster"],"disadvantages":["More expensive","Bumpy"],"price":"30-45 EUR","duration":"1 h","reservation":"Pending"}]},
-  {"origin":"Krabi","destination":"Bangkok","recommendedOption":"Flight","estimatedDuration":"1h25 + airport time","estimatedPrice":"45-90 EUR","bookingWebsite":"https://www.google.com/travel/flights","reservationStatus":"Pending","notes":"Book once the split Krabi day is fixed.","options":[{"name":"Flight","advantages":["Fast","Many options"],"disadvantages":["Airport transfer needed"],"price":"45-90 EUR","duration":"1h25 + airport time","reservation":"Pending"}]}
+  {
+    "origin": "Bangkok",
+    "destination": "Chiang Mai",
+    "recommendedOption": "Tren nocturno",
+    "estimatedDuration": "11-13 h",
+    "estimatedPrice": "25-45 EUR",
+    "bookingWebsite": "https://12go.asia/",
+    "reservationStatus": "Decisión pendiente",
+    "notes": "Ahorra una noche de hotel, pero tarda más.",
+    "options": [
+      { "name": "Tren nocturno", "advantages": ["Experiencia", "Llegada céntrica", "Ahorra noche de hotel"], "disadvantages": ["Largo", "Puede agotarse"], "price": "25-45 EUR", "duration": "11-13 h", "reservation": "Pendiente" },
+      { "name": "Vuelo", "advantages": ["Rápido", "Más predecible"], "disadvantages": ["Tiempo de aeropuerto", "Normas de equipaje"], "price": "50-90 EUR", "duration": "1h15 + tiempo de aeropuerto", "reservation": "Pendiente" }
+    ]
+  },
+  {
+    "origin": "Chiang Mai",
+    "destination": "Koh Tao",
+    "recommendedOption": "Vuelo + bus + ferry",
+    "estimatedDuration": "Día completo",
+    "estimatedPrice": "100-170 EUR",
+    "bookingWebsite": "https://12go.asia/",
+    "reservationStatus": "Pendiente",
+    "notes": "Necesita margen suficiente entre conexiones.",
+    "options": [
+      { "name": "Vuelo + bus + ferry", "advantages": ["Opción más práctica", "Se puede reservar por tramos conectados"], "disadvantages": ["Día largo", "Riesgo de conexión"], "price": "100-170 EUR", "duration": "Día completo", "reservation": "Pendiente" }
+    ]
+  },
+  {
+    "origin": "Koh Tao",
+    "destination": "Krabi",
+    "recommendedOption": "Ferry + van",
+    "estimatedDuration": "6-8 h",
+    "estimatedPrice": "35-55 EUR",
+    "bookingWebsite": "https://12go.asia/",
+    "reservationStatus": "Pendiente",
+    "notes": "El tiempo puede afectar a los ferris.",
+    "options": [
+      { "name": "Ferry + van", "advantages": ["Ruta directa de isla a tierra firme"], "disadvantages": ["Depende de la meteorología"], "price": "35-55 EUR", "duration": "6-8 h", "reservation": "Pendiente" }
+    ]
+  },
+  {
+    "origin": "Krabi",
+    "destination": "Phi Phi",
+    "recommendedOption": "Ferry",
+    "estimatedDuration": "2 h",
+    "estimatedPrice": "15-25 EUR",
+    "bookingWebsite": "https://12go.asia/",
+    "reservationStatus": "Pendiente",
+    "notes": "Viajar ligero para el traslado a la isla.",
+    "options": [
+      { "name": "Ferry", "advantages": ["Barato", "Sencillo"], "disadvantages": ["Horarios fijos"], "price": "15-25 EUR", "duration": "2 h", "reservation": "Pendiente" },
+      { "name": "Speedboat", "advantages": ["Más rápido"], "disadvantages": ["Más caro", "Puede moverse mucho"], "price": "30-45 EUR", "duration": "1 h", "reservation": "Pendiente" }
+    ]
+  },
+  {
+    "origin": "Krabi",
+    "destination": "Bangkok",
+    "recommendedOption": "Vuelo",
+    "estimatedDuration": "1h25 + tiempo de aeropuerto",
+    "estimatedPrice": "45-90 EUR",
+    "bookingWebsite": "https://www.google.com/travel/flights",
+    "reservationStatus": "Pendiente",
+    "notes": "Reservar cuando esté cerrado el día dividido en Krabi.",
+    "options": [
+      { "name": "Vuelo", "advantages": ["Rápido", "Muchas opciones"], "disadvantages": ["Necesita traslado al aeropuerto"], "price": "45-90 EUR", "duration": "1h25 + tiempo de aeropuerto", "reservation": "Pendiente" }
+    ]
+  }
 ]

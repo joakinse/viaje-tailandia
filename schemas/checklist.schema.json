@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Checklist","type":"array","items":{"type":"object","required":["category","items"],"properties":{"category":{"type":"string"},"items":{"type":"array","items":{"type":"string"}}}}}

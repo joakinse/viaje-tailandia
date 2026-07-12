@@ -1,0 +1,12 @@
+[
+  { "type": "Hotel", "name": "Bangkok hotel TBD", "destination": "Bangkok", "query": "Bangkok hotel" },
+  { "type": "Temple", "name": "Grand Palace", "destination": "Bangkok", "query": "Grand Palace Bangkok" },
+  { "type": "Temple", "name": "Wat Arun", "destination": "Bangkok", "query": "Wat Arun" },
+  { "type": "Market", "name": "Chinatown", "destination": "Bangkok", "query": "Yaowarat Bangkok" },
+  { "type": "Temple", "name": "Wat Chedi Luang", "destination": "Chiang Mai", "query": "Wat Chedi Luang" },
+  { "type": "Dive center", "name": "Koh Tao dive center TBD", "destination": "Koh Tao", "query": "Koh Tao dive center" },
+  { "type": "Beach", "name": "Sairee Beach", "destination": "Koh Tao", "query": "Sairee Beach" },
+  { "type": "Beach", "name": "Railay Beach", "destination": "Krabi", "query": "Railay Beach" },
+  { "type": "Viewpoint", "name": "Phi Phi Viewpoint", "destination": "Phi Phi", "query": "Phi Phi Viewpoint" },
+  { "type": "Beach", "name": "Maya Bay", "destination": "Phi Phi", "query": "Maya Bay" }
+]

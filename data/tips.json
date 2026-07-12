@@ -1,0 +1,16 @@
+[
+  { "topic": "Currency", "description": "Thai baht (THB). Cash is still useful for markets, taxis and small shops." },
+  { "topic": "ATM", "description": "ATMs often charge a local fee. Withdraw safely and keep cash split." },
+  { "topic": "SuperRich", "description": "Popular exchange option in Bangkok with competitive rates." },
+  { "topic": "Grab", "description": "Most useful ride-hailing app for cities and airport transfers." },
+  { "topic": "Bolt", "description": "Alternative ride-hailing app; availability varies." },
+  { "topic": "7-Eleven", "description": "Reliable for water, snacks, SIM top-ups and quick breakfasts." },
+  { "topic": "TDAC", "description": "Thailand Digital Arrival Card should be completed before arrival." },
+  { "topic": "Internet", "description": "Use eSIM or local SIM. Keep offline maps downloaded." },
+  { "topic": "Electric plugs", "description": "Thailand commonly uses types A, B, C and O. Bring universal adapter." },
+  { "topic": "Motorbike rental", "description": "Only rent with valid permit, helmet and insurance. Photograph the bike." },
+  { "topic": "Scams", "description": "Avoid gem/tuk-tuk scams and anyone saying a temple is closed without verification." },
+  { "topic": "Emergency numbers", "description": "Tourist Police 1155, general emergency 191, medical emergency 1669." },
+  { "topic": "Health", "description": "Hydrate, use mosquito repellent, and check diving restrictions." },
+  { "topic": "Weather", "description": "August/September is rainy season in many areas. Keep plans flexible." }
+]

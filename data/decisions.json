@@ -1,0 +1,6 @@
+[
+  { "priority": "High", "description": "Bangkok to Chiang Mai transport", "possibleOptions": ["Night train", "Flight"], "pros": ["Train saves hotel", "Flight saves time"], "cons": ["Train is long", "Flight needs airport logistics"], "decisionStatus": "Open" },
+  { "priority": "High", "description": "Koh Tao diving level", "possibleOptions": ["Try dive", "Advanced Open Water", "Snorkel only"], "pros": ["Memorable activity", "Better dive sites with certification"], "cons": ["Cost", "Medical constraints", "Time"], "decisionStatus": "Open" },
+  { "priority": "Medium", "description": "Full Moon Party", "possibleOptions": ["Go", "Skip", "Alternative nightlife"], "pros": ["Iconic", "Party experience"], "cons": ["Logistics", "Crowds", "Cost"], "decisionStatus": "Open" },
+  { "priority": "High", "description": "Total budget target", "possibleOptions": ["1600 EUR", "1850 EUR", "2200 EUR"], "pros": ["Controls decisions"], "cons": ["May limit hotels or activities"], "decisionStatus": "Open" }
+]

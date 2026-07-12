@@ -1,0 +1,9 @@
+[
+  { "date": "22-24 Aug", "destination": "Bangkok", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "22 Aug evening", "checkOut": "24 Aug", "bookingReference": "-", "notes": "Near transit preferred." },
+  { "date": "25-28 Aug", "destination": "Chiang Mai", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "25 Aug", "checkOut": "28 Aug", "bookingReference": "-", "notes": "Old City or Nimman." },
+  { "date": "28-31 Aug", "destination": "Koh Tao", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "28 Aug", "checkOut": "31 Aug", "bookingReference": "-", "notes": "Sairee or Mae Haad." },
+  { "date": "31 Aug-1 Sep", "destination": "Krabi", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "31 Aug", "checkOut": "1 Sep", "bookingReference": "-", "notes": "Ao Nang practical." },
+  { "date": "1-2 Sep", "destination": "Phi Phi", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "1 Sep", "checkOut": "2 Sep", "bookingReference": "-", "notes": "Avoid noisy area if possible." },
+  { "date": "2-4 Sep", "destination": "Krabi", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "2 Sep", "checkOut": "4 Sep", "bookingReference": "-", "notes": "Airport access." },
+  { "date": "4-5 Sep", "destination": "Bangkok", "hotel": "TBD", "bookingStatus": "Pending", "checkIn": "4 Sep", "checkOut": "5 Sep", "bookingReference": "-", "notes": "Shopping/transit area." }
+]

@@ -1,11 +1,11 @@
 {
   "estimatedBudget": 1850,
-  "currentExpenses": 0,
-  "remainingBudget": 1850,
+  "currentExpenses": 693,
+  "remainingBudget": 1157,
   "currency": "EUR",
   "categories": [
     { "name": "Alojamiento", "estimated": 450, "spent": 0 },
-    { "name": "Vuelos", "estimated": 420, "spent": 0 },
+    { "name": "Vuelos", "estimated": 420, "spent": 693 },
     { "name": "Transporte", "estimated": 280, "spent": 0 },
     { "name": "Comida", "estimated": 330, "spent": 0 },
     { "name": "Actividades", "estimated": 270, "spent": 0 },

@@ -148,7 +148,7 @@ function renderFood() { page("Comida y noche", `<div class="section-title"><div>
 
 function renderBudget() {
   const max = Math.max(...state.budget.categories.map((category) => category.estimated));
-  page("Presupuesto", `<section class="grid grid-3">${metric("Estimado", `${state.budget.estimatedBudget} ${state.budget.currency}`, "total")}${metric("Gastado", `${state.budget.currentExpenses} ${state.budget.currency}`, "actual")}${metric("Restante", `${state.budget.remainingBudget} ${state.budget.currency}`, "pendiente")}</section><section class="card"><h2>Gráficos</h2>${state.budget.categories.map((category) => `<p><strong>${esc(category.name)}</strong> · ${category.estimated} ${state.budget.currency}</p><div class="progress"><span style="width:${Math.round((category.estimated / max) * 100)}%"></span></div>`).join("")}</section>`, "Dinero");
+  page("Presupuesto", `<section class="grid grid-3">${metric("Estimado", `${state.budget.estimatedBudget} ${state.budget.currency}`, "total")}${metric("Gastado", `${state.budget.currentExpenses} ${state.budget.currency}`, "actual")}${metric("Restante", `${state.budget.remainingBudget} ${state.budget.currency}`, "pendiente")}</section><section class="card"><h2>Gráficos</h2>${state.budget.categories.map((category) => `<p><strong>${esc(category.name)}</strong> · estimado ${category.estimated} ${state.budget.currency} · gastado ${category.spent} ${state.budget.currency}</p><div class="progress"><span style="width:${Math.round((category.estimated / max) * 100)}%"></span></div>`).join("")}</section>`, "Dinero");
 }
 
 function renderChecklist() {

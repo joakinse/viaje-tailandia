@@ -49,11 +49,12 @@ button, input { font: inherit; }
 .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-.card { border: 1px solid var(--line); border-radius: 26px; padding: 20px; background: rgba(255,250,241,.82); box-shadow: 0 16px 42px rgba(20,63,50,.08); }
+.card { min-width: 0; border: 1px solid var(--line); border-radius: 26px; padding: 20px; background: rgba(255,250,241,.82); box-shadow: 0 16px 42px rgba(20,63,50,.08); }
 .card h2, .card h3 { margin: 0 0 10px; letter-spacing: -.035em; }
-.card p { color: var(--muted); line-height: 1.6; }
-.metric { display: grid; gap: 4px; }
-.metric strong { font-size: clamp(1.8rem, 5vw, 3rem); letter-spacing: -.06em; }
+.card p { color: var(--muted); line-height: 1.6; overflow-wrap: anywhere; }
+.metric { display: grid; align-content: start; gap: 6px; }
+.metric strong { min-width: 0; font-size: clamp(1.45rem, 2.6vw, 2.35rem); line-height: 1.08; letter-spacing: -.045em; overflow-wrap: anywhere; }
+.metric small { color: var(--muted); line-height: 1.35; }
 .status { display: inline-flex; width: fit-content; align-items: center; gap: 6px; padding: 7px 10px; border-radius: 999px; background: rgba(31,107,84,.11); color: var(--green-2); font-weight: 800; font-size: .82rem; }
 .status.pending, .priority-high { background: rgba(223,101,73,.12); color: var(--coral); }
 
@@ -67,10 +68,16 @@ button, input { font: inherit; }
 details.card { padding: 0; overflow: hidden; }
 details.card summary { list-style: none; cursor: pointer; padding: 18px 20px; display: flex; justify-content: space-between; gap: 16px; align-items: center; }
 details.card summary::-webkit-details-marker { display: none; }
-.details-body { padding: 0 20px 20px; }
+.details-body { padding: 2px 20px 20px; }
+.details-body > p { margin: 0 0 14px; }
+.details-body > .chip { display: inline-flex; align-items: center; margin: 0 0 20px; }
+.details-body > .grid { margin-top: 2px; }
 .meta-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }
-.meta { border: 1px solid var(--line); border-radius: 16px; padding: 10px; background: rgba(255,255,255,.5); }
+.meta { min-width: 0; border: 1px solid var(--line); border-radius: 16px; padding: 12px; background: rgba(255,255,255,.5); }
 .meta small { display: block; color: var(--muted); font-weight: 800; margin-bottom: 4px; }
+.meta strong { display: block; line-height: 1.35; overflow-wrap: anywhere; }
+.card > .meta + .meta { margin-top: 10px; }
+.card > .meta ~ h3 { margin-top: 20px; }
 .schedule { display: grid; gap: 10px; margin-top: 14px; }
 .schedule-row { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 12px; padding: 12px; border-radius: 18px; background: rgba(255,255,255,.62); border: 1px solid var(--line); }
 .schedule-row time { font-weight: 900; color: var(--green-2); }

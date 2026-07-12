@@ -1,0 +1,26 @@
+.map-panel { padding: clamp(16px, 3vw, 28px); overflow: hidden; }
+.map-heading { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 18px; }
+.map-heading h1 { margin: 0; font-size: clamp(2.2rem, 6vw, 4.6rem); line-height: .94; letter-spacing: -.06em; }
+.map-fit, .map-filter { border: 1px solid var(--line); background: var(--panel-strong); color: var(--ink); font: inherit; font-weight: 800; cursor: pointer; }
+.map-fit { flex: 0 0 auto; padding: 10px 14px; border-radius: 999px; }
+.map-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.map-filter { padding: 8px 11px; border-radius: 999px; color: var(--muted); }
+.map-filter.active { background: var(--green); border-color: var(--green); color: white; }
+.trip-map { width: 100%; height: min(68vh, 650px); min-height: 460px; border: 1px solid var(--line); border-radius: 22px; overflow: hidden; background: #dce7e1; z-index: 1; }
+.map-note { margin: 12px 2px 0; font-size: .88rem; }
+.map-marker-shell { background: transparent; border: 0; }
+.map-marker { width: 36px; height: 36px; display: grid; place-items: center; border: 3px solid white; border-radius: 13px 13px 13px 3px; background: var(--green); box-shadow: 0 8px 18px rgba(20,63,50,.28); font-size: 1rem; transform: rotate(-45deg); }
+.map-marker > * { transform: rotate(45deg); }
+.map-popup { min-width: 190px; display: grid; gap: 7px; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+.map-popup small { color: var(--muted); font-weight: 800; }
+.map-popup strong { font-size: 1rem; }
+.map-popup em { color: var(--coral); font-size: .82rem; font-style: normal; font-weight: 800; }
+.map-popup a { width: fit-content; color: var(--green-2); font-weight: 900; }
+.leaflet-popup-content-wrapper { border-radius: 16px; }
+.leaflet-control-attribution { font-size: .68rem; }
+
+@media (max-width: 560px) {
+  .map-heading { align-items: start; flex-direction: column; }
+  .map-fit { width: 100%; }
+  .trip-map { height: 62vh; min-height: 420px; border-radius: 18px; }
+}
